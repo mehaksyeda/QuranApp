@@ -17,7 +17,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Quran from './screen/Quran';
 import Languages from './screen/Languages';
-import List from './screen/List';
 import Audio from './screen/Audio';
 const Stack = createNativeStackNavigator();
 
@@ -33,7 +32,7 @@ const App = () => {
         <Stack.Screen name='Surah' component={Surah}/>
         <Stack.Screen name='Languages' component={Languages}/>
         <Stack.Screen name='Quran' component={Quran}/>
-        <Stack.Screen name='List' component={List}/>
+       
         <Stack.Screen name='Audio' component={Audio}/>
       </Stack.Navigator>
     </NavigationContainer>
